@@ -16,3 +16,11 @@ opt.incsearch = true
 
 opt.mouse = "a"
 opt.clipboard = "unnamedplus"
+
+opt.splitbelow = true
+opt.splitright = true
+
+opt.swapfile = false
+opt.backup = false
+opt.writebackup = false
+opt.undofile = true
