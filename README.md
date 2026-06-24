@@ -35,7 +35,7 @@ lua/
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/nvim-config ~/.config/nvim
+git clone https://github.com/Nix556/nvim-config ~/.config/nvim
 nvim
 ```
 First start will install plugins automatically.
