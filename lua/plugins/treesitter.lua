@@ -1,10 +1,10 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  lazy = false,
   build = ":TSUpdate",
   opts = {
-    highlight = { enable = true },
     ensure_installed = {
-      "lua", "json", "bash", "python", "rust", "php", "css", "html",
+      "bash", "css", "html", "javascript", "json", "lua", "markdown", "markdown_inline", "python", "rust", "tsx", "typescript",
     },
     auto_install = true,
   },

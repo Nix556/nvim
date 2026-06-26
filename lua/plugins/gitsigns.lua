@@ -1,7 +1,8 @@
 return {
-  "numToStr/Comment.nvim",
+  "lewis6991/gitsigns.nvim",
   event = { "BufReadPre", "BufNewFile" },
+
   config = function()
-    require("Comment").setup()
+    require("gitsigns").setup()
   end,
 }

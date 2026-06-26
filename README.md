@@ -1,15 +1,19 @@
 # Neovim Config
 
-Neovim setup built from scratch.
+Neovim setup built from scratch using lazy.nvim.
 
 ## Plugins
 
-- lazy.nvim
-- nvim-treesitter
-- telescope.nvim
+- nvim-autopairs
+- gruvbox.nvim
 - Comment.nvim
-- nvim-surround
-- nvim-tree
+- fzf-lua
+- gitsigns.nvim
+- lualine.nvim
+- render-markdown.nvim
+- nvim-treesitter
+- twilight.nvim
+- which-key.nvim
 
 ## Structure
 
@@ -18,19 +22,29 @@ init.lua
 lua/
 ├── config/
 │   ├── options.lua   -> basic editor settings
+│   ├── keymaps.lua   -> global keybindings
 │   └── lazy.lua      -> plugin manager setup
 └── plugins/
-    └── init.lua      -> plugin list
+    ├── autopairs.lua
+    ├── colorscheme.lua
+    ├── comment.lua
+    ├── fzf-lua.lua
+    ├── gitsigns.lua
+    ├── lualine.lua
+    ├── render-markdown.lua
+    ├── treesitter.lua
+    ├── twilight.lua
+    └── which-key.lua
 ````
 
 ## What it does
 
-- Sets up Neovim from scratch
-- Loads plugins using lazy.nvim
-- Improves syntax highlighting (Treesitter)
-- Adds fuzzy file search (Telescope)
-- Adds file explorer (nvim-tree)
-- Makes editing faster with small quality-of-life plugins
+- Minimal Neovim setup from scratch
+- Plugin management via lazy.nvim
+- Treesitter syntax highlighting
+- fzf-lua for fast fuzzy searching
+- Git integration (gitsigns)
+- Lightweight UI enhancements
 
 ## Install
 
@@ -38,4 +52,4 @@ lua/
 git clone https://github.com/Nix556/nvim-config ~/.config/nvim
 nvim
 ```
-First start will install plugins automatically.
+Plugins install automatically on first launch.
