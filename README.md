@@ -5,7 +5,7 @@ Neovim setup built from scratch using lazy.nvim.
 ## Plugins
 
 - nvim-autopairs
-- gruvbox.nvim
+- habamax.nvim
 - Comment.nvim
 - fzf-lua
 - gitsigns.nvim
