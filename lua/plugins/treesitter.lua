@@ -4,7 +4,7 @@ return {
   build = ":TSUpdate",
   opts = {
     ensure_installed = {
-      "bash", "css", "html", "javascript", "json", "lua", "markdown", "markdown_inline", "python", "rust", "tsx", "typescript",
+      "bash", "css", "html", "javascript", "json", "lua", "markdown", "markdown_inline", "python",
     },
     auto_install = true,
   },

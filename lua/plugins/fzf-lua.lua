@@ -1,5 +1,6 @@
 return {
   "ibhagwan/fzf-lua",
+
   keys = {
     {
       "<leader>ff",
@@ -23,7 +24,6 @@ return {
       desc = "Buffers",
     },
   },
-  config = function()
-    require("fzf-lua").setup()
-  end,
+
+  opts = {},
 }
