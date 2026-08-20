@@ -10,9 +10,7 @@ Neovim setup built from scratch using lazy.nvim.
 - fzf-lua
 - gitsigns.nvim
 - lualine.nvim
-- render-markdown.nvim
 - nvim-treesitter
-- twilight.nvim
 - which-key.nvim
 
 ## Structure
@@ -31,9 +29,7 @@ lua/
     ├── fzf-lua.lua
     ├── gitsigns.lua
     ├── lualine.lua
-    ├── render-markdown.lua
     ├── treesitter.lua
-    ├── twilight.lua
     └── which-key.lua
 ````
 
@@ -44,7 +40,7 @@ lua/
 - Treesitter syntax highlighting
 - fzf-lua for fast fuzzy searching
 - Git integration (gitsigns)
-- Lightweight UI enhancements
+- Small UI enhancements
 
 ## Install
 
