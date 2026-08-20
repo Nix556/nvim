@@ -14,7 +14,6 @@ opt.smartcase = true
 opt.hlsearch = false
 opt.incsearch = true
 
-opt.mouse = "a"
 opt.clipboard = "unnamedplus"
 
 opt.splitbelow = true
