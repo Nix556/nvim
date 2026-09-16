@@ -1,10 +1,11 @@
 return {
-    "ntk148v/habamax.nvim",
-    dependencies = {
-        "rktjmp/lush.nvim",
-    },
+    "navarasu/onedark.nvim",
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme("habamax.nvim")
+        require("onedark").setup({
+            style = "darker",
+        })
+
+        require("onedark").load()
     end,
 }
