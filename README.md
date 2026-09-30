@@ -6,7 +6,6 @@ Neovim setup built from scratch using lazy.nvim.
 
 - nvim-autopairs
 - onedark.nvim
-- Comment.nvim
 - fzf-lua
 - gitsigns.nvim
 - lualine.nvim
@@ -25,7 +24,6 @@ lua/
 └── plugins/
     ├── autopairs.lua
     ├── colorscheme.lua
-    ├── comment.lua
     ├── fzf-lua.lua
     ├── gitsigns.lua
     ├── lualine.lua
